@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+        <title>Formalar</title>
+        <style type="text/css" media="all">
+            #div{
+                background-color: pink;
+                color: red;
+            }
+            button{
+                background-color: red;
+                color: white;
+                border: 4px solid yellow;
+            }
+            button:hover{
+                color: red;
+                background-color: white;
+                border: 4px solid green;
+            }
+            button:active {
+                color: yellow;
+                background-color: green;
+                border: 7px solid blue;
+            }
+            textarea{
+                color: red;
+                font-size: 40px;
+                font-family: Sans-Serif;
+                border-bottom: 72px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div style="text-align:center" id="div">
+            
+        
+        <form action="index1.html" method="get" accept-charset="utf-8">
+            <label for="Sana">Sana</label>
+            <input type="date" name="Sana" id="Sana"><br /><br />
+            <label for="Ism">Ism</label>
+            <input type="text" name="Ism" id="Ism"><br /><br />
+            <label for="fam">Familiya</label>
+            <input type="text" name="fam" id="fam">
+            <label for="tel">Telefon raqamingiz</label>
+            <input type="number" name="number" id="tel"><br /><br />
+            <label for="p">Parol yaratish</label>
+            <input type="password" name="p" id="p">
+            <!--<label for="r">Rasm joylash</label>
+            <input type="image" name="Ism" id="r">
+            
+            -->
+            <br /><br />
+            <label for="Yourself">Yourself</label>
+            <textarea name="self" id="Yourself" rows="10" cols="30"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        </div>
+    </body>
+</html>
